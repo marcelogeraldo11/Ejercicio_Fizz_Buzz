@@ -1,0 +1,74 @@
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#toggleBtn {
+    background-color: rgb(247, 165, 12);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#resultados {
+    flex-direction: column;
+}
+
+#resultados ul {
+    max-width: 400px;
+}
+
+#resultados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    font-size: 24px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.green {
+    color: rgb(13, 188, 13);
+    font-weight: 700;
+}
+
+.orange {
+    color: rgb(247, 165, 12);
+    font-weight: 700;
+}
